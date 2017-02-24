@@ -1,0 +1,21 @@
+<page name="248EC73C2C4001B5E0505DHA1FAB5F8E" description="LoginAPITest">
+
+
+    <action name="248EC73C2C4101B2E0505D9A1FAB5F8E"
+            dataset="global:xls.achPreProcessorTask" startrow="1" endrow="2"
+            description="IOP mobile Login">
+
+        <validator name="Step-1: Create IAM User" description="">
+
+            <testng name="Test loginMobileMulti " >
+                <testPackage name="com.intuit.iop.api">
+                    <testClass class="loginMobileMulti" methods="runtest"></testClass>
+                </testPackage>
+            </testng>
+
+            <assert name="Verify companyId " descriptor="String" output="junit:companyid" value="" operator="NotNull" />
+
+        </validator>
+
+    </action>
+</page>

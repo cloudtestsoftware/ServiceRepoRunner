@@ -1,0 +1,11 @@
+run,testcase,jobname,intervalInMin,hoursBefore,maintenanceInHr,verify,skipped,failures,payfrequency,paidby,companytype,emailleaddays,approvedpaycheck,zipcode
+on,IOP Company Weekly Pay Schedule Regular Check Not Approved,SchedulerPayDayReminderTask,5,12,2,120,0,0,EVERY_WEEK,Regular Check,IOP,2,no,95035
+on,IOP Company Every Other Weekly Pay Schedule Regular Check Not Approved,SchedulerPayDayReminderTask,5,12,2,120,0,0,EVERY_OTHER_WEEK,Regular Check,IOP,2,no,95035
+on,IOP Company twice a month Pay Schedule Regular Check Not Approved,SchedulerPayDayReminderTask,5,12,2,120,0,0,TWICE_A_MONTH,Regular Check,IOP,2,no,95035
+on,IOP Company monthly Pay Schedule Regular Check Not Approved,SchedulerPayDayReminderTask,5,12,2,120,0,0,EVERY_MONTH,Regular Check,IOP,2,no,95035
+on,IOP Company monthly Pay Schedule Regular Check Not Approved,SchedulerPayDayReminderTask,5,12,2,120,0,0,UNSCHEDULED,Regular Check,IOP,2,no,95035
+on,IOP Company Weekly Pay Schedule Regular Check  Approved,SchedulerPayDayReminderTask,5,12,2,120,0,0,EVERY_WEEK,Regular Check,IOP,2,yes,95035
+on,IOP Company Every Other Weekly Pay Schedule Regular Check  Approved,SchedulerPayDayReminderTask,5,12,2,120,0,0,EVERY_OTHER_WEEK,Regular Check,IOP,2,yes,95035
+on,IOP Company twice a month Pay Schedule Regular Check  Approved,SchedulerPayDayReminderTask,5,12,2,120,0,0,TWICE_A_MONTH,Regular Check,IOP,2,yes,95035
+on,IOP Company monthly Pay Schedule Regular Check  Approved,SchedulerPayDayReminderTask,5,12,2,120,0,0,EVERY_MONTH,Regular Check,IOP,2,yes,95035
+on,IOP Company monthly Pay Schedule Regular Check  Approved,SchedulerPayDayReminderTask,5,12,2,120,0,0,UNSCHEDULED,Regular Check,IOP,2,yes,95035

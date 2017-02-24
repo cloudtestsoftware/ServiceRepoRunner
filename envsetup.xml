@@ -1,0 +1,76 @@
+<global name="envsetup">
+
+    <!-- IOP env constants -->
+    <endpoint_iop_local_url value="http://local.intuit.com:8080/Public"/>
+    <!--
+    <endpoint_iop_branch_url value="https://cs-branch-shard.ems.intuit.net/test"/>
+    <endpoint_iop_branch_url value="https://branch-shard-public.iopdev.intuit.com/test"/>
+    <endpoint_iop_branch_url value="https://branch-ws.dev.paycycle.com/test"/>
+    <endpoint_iop_branch_url value=" https://branch-ws.iopdev.intuit.com:443/test"/>
+    -->
+
+    <endpoint_iop_branch_url value="https://branch-ws.dev.paycycle.com/test"/>
+    <endpoint_iop_trunk_url value="https://trunk-ws.dev.paycycle.com/test"/>
+    <endpoint_iop_hotfix_url value="https://hotfix-ws.dev.paycycle.com/test"/>
+    <iop_service_auth value="QA_AUTOMATION:aut0mat10#"/>
+
+    <!-- PAPI end points -->
+    <endpoint_papi_branch_url value="https://payroll-qal.api.intuit.net:443"/>
+    <endpoint_papi_trunk_url value="https://payroll-e2e.api.intuit.net:443"/>
+
+    <!--obsedian endpoints -->
+
+    <endpoint_odsedian_local_url value="http://localhost:9000"/>
+    <obsedian_service_local_auth value="admin:changeme"/>
+
+<!--
+    <endpoint_odsedian_branch_url value="http://localhost:9000"/>
+    <obsedian_service_branch_auth value="admin:changeme"/>
+    -->
+
+
+    <endpoint_odsedian_branch_url value="http://lxbuild1.corp.paycycle.com:8080/standaloneObsidianAdmin_branch_test"/>
+    <obsedian_service_branch_auth value="taskscheduler_testuser1:PaPaKaRlo8211"/>
+
+
+    <endpoint_odsedian_trunk_url value="http://lxbuild1.corp.paycycle.com:8080/standaloneObsidianAdmin_trunk_test"/>
+    <obsedian_service_trunk_auth value="taskscheduler_testuser1:PaPaKaRlo8211"/>
+
+    <endpoint_odsedian_hotfix_url value="http://lxbuild1.corp.paycycle.com:8080/standaloneObsidianAdmin_hotfix_test"/>
+    <obsedian_service_htofix_auth value="taskscheduler_testuser1:PaPaKaRlo8211"/>
+
+    <endpoint_odsedian_branch_main_url value="http://lxbuild1.corp.paycycle.com:8080/standaloneObsidianAdmin_branch_main"/>
+    <obsedian_service_branch_main_auth value="taskscheduler_testuser1:PaPaKaRlo8211"/>
+
+
+    <!-- qbo env constants -->
+    <!--
+    <signup_qbo_branch_url value="https://admin.qa.qbo.ie.intuit.com/qbo1" />
+    <signup_qbo_branch_url value="https://admin.qa.qbo.intuit.com/qbo5" />
+    <signup_qbo_branch_url value="https://admin.qa.qbo.intuit.com/qbo1" />
+    <signup_qbo_branch_url value="https://admin.qa.qbo.a.intuit.com/qbo5" />
+     https://qa.qbo.intuit.com/qbo1
+    -->
+    <signup_qbo_branch_url value="https://qa.qbo.intuit.com/qbo5"/>
+    <signup_qbo_trunk_url value="https://internal.e2e.qbo.intuit.com/qbo5"/>
+    <signup_qbo_hotfix_url value=" https://internal.qa.qbo.intuit.com/qbo2"/>
+
+    <!-- QBO endpoints URl -->
+
+    <endpoint_qbo_branch_url value="https://branch.iopdev.intuit.com/test"/>
+    <endpoint_qbo_trunk_url value="https://trunk-ws.dev.paycycle.com/test"/>
+    <endpoint_qbo_hotfix_url value="https://hotfix-ws.dev.paycycle.com/test"/>
+
+
+    <!--Constants used for obsedian to extract results after job run -->
+
+    <obsedian_output_job_status_index  value="1"/>
+
+    <obsedian_output_job_status_details_index  value="2"/>
+
+    <!-- FTP server setup for EFTPS -->
+    <eftps_host value="devweb1.corp.paycycle.com" />
+    <eftps_user value="sftptest" />
+    <eftps_password value="tsetptfs" />
+
+</global>
