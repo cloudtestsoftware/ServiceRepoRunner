@@ -3,13 +3,13 @@ Use this repo to create your automation faster using Servicerepo framework
 
 Welcome to the ServiceAutomation wiki!
 
-Use this repo to create your automation project using Testrepo solution http://intuit.artitelly.com/testrepo/service
+Use this repo to create your automation project using Testrepo solution http://cloudtest.artitelly.com/testrepo/service
 
 You can login to this application using guest user account and can create an account for you.
 
 To login as guest user use
 
-User Name : guest@intuit.com password: guest
+User Name : guest@cloudtest.com password: guest
 
 ##  How you can setup your Service Automation Project?
 
@@ -17,7 +17,7 @@ To setup your First Service automation project follow these steps
 
 ### Step 1: 
 
-1) Login to http://intuit.artitelly.com/testrepo/service using guest user account
+1) Login to http://cloudtest.artitelly.com/testrepo/service using guest user account
 
 2) Create your own user account using Company --> Add User menu item
 
@@ -89,7 +89,7 @@ curl --insecure -X POST --header 'Content-Type: application/json' --header 'Acce
 **"federalEIN": "64-1492751"**
 **}},"persist":true}}' **
 
-'https://trunk-ws.dev.paycycle.com/test/webservices/json/MobileManager'
+'https://YOURPATH/test/webservices/json/MobileManager'
 
 You have to provide header, cookie and -d < YOUR JSON INPUT> remember there is beginning and ending single quote in the JSON and then the URL within single quote.
 
