@@ -1,6 +1,8 @@
 # ServiceRepoRunner
 Use this repo to create your automation faster using Servicerepo framework
 
+https://www.youtube.com/watch?v=fhPb6ocUz_k
+
 Welcome to the ServiceAutomation wiki!
 
 Use this repo to create your automation project using Testrepo solution http://cloudtest.artitelly.com/testrepo/service
