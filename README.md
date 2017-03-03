@@ -3,6 +3,8 @@ Use this repo to create your automation faster using Servicerepo framework
 
 https://www.youtube.com/watch?v=fhPb6ocUz_k
 
+https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-nginx-for-centos-6
+
 Welcome to the ServiceAutomation wiki!
 
 Use this repo to create your automation project using Testrepo solution http://cloudtest.artitelly.com/testrepo/service
